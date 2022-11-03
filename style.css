@@ -1,0 +1,101 @@
+body{
+            background: #fbfbfb;
+        }
+
+        a:link{
+            text-decoration: none;
+        }
+
+        a:hover{
+            font-size: 18px;
+            transition: font-size 0.3s;
+        }
+
+        a:visited{
+
+        }
+
+        a:hover{
+
+        }
+
+        a:active{
+
+        }
+    
+        .articleBody{
+            width: 95%;
+            height: auto;
+            background: #ffffff;
+            display: block;
+            border-radius: 15px;
+            -webkit-box-shadow: 5px 5px 15px 5px #cccccc; 
+            box-shadow: 5px 5px 15px 5px #cccccc;
+        }
+
+        .card{
+            width: 85%;
+            height: auto;
+            background: none;
+            border-top: #b3adad solid 1px;
+            border-bottom: #b3adad solid 1px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 50px;
+            padding: 16px;
+        }
+    
+        .headImgArticle{
+            width: 100%;
+            height: auto;
+            margin-bottom: 35px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+    
+        .bodyImgArticle{
+            width: 100%;
+            height: auto;
+            margin-top: 35px;
+            margin-bottom: 35px;
+        }
+    
+        .video{
+            width: 100%;
+            height: auto;
+        }
+    
+        .textWrapper{
+            width: auto;
+            height: auto;
+            display: block;
+            padding: 26px 26px;
+        }
+    
+        .textBody{
+            text-align: justify;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            line-height: 25px;
+            text-indent: 25px;
+        }
+
+        table {
+            width: 100%;
+			border:1px solid #b3adad;
+			border-collapse:collapse;
+			padding:5px;
+		}
+		table th {
+			border:1px solid #b3adad;
+			padding:5px;
+			background: #ffffff;
+			color: #313030;
+		}
+		table td {
+			border:1px solid #b3adad;
+			text-align:center;
+			padding:5px;
+			background: #ffffff;
+			color: #313030;
+		}
